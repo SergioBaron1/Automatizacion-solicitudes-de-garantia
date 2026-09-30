@@ -27,12 +27,12 @@ Proceso UiPath para consolidar y validar solicitudes de garantía de comercio el
 
 ## Configuración local
 
-1. Copia `Data/Config.template.json` como `Data/Config.json`.
-2. Completa los valores reales de Google Sheets y PostgreSQL en `Data/Config.json`.
-3. No publiques `Data/Config.json`; está excluido por `.gitignore`.
-4. En UiPath Studio, vuelve a seleccionar la conexión de Google Sheets para `ReadQueueSheets.xaml` y `UpdateAndNotify.xaml`.
-5. Configura los activos de credenciales en la carpeta de Orchestrator que utilizará el robot.
-6. Revisa la configuración SMTP antes de ejecutar el proceso.
+1. Copiar `Data/Config.template.json` como `Data/Config.json`.
+2. Completar los valores reales de Google Sheets y PostgreSQL en `Data/Config.json`.
+3. No publicar `Data/Config.json`.
+4. En UiPath Studio, volver a seleccionar la conexión de Google Sheets para `ReadQueueSheets.xaml` y `UpdateAndNotify.xaml`.
+5. Configurar los activos de credenciales en la carpeta de Orchestrator que utilizará el robot.
+6. Revisar la configuración SMTP antes de ejecutar el proceso.
 
 ## Ejecución
 
@@ -41,7 +41,7 @@ El punto de entrada es `Main.xaml`. El proyecto no incluye un trigger local; pue
 ## Seguridad
 
 - No se incluyen credenciales, contraseñas ni `Data/Config.json`.
-- Los identificadores de Google Sheets, conexiones y carpetas de Orchestrator del entorno original se sustituyeron por marcadores.
+- Los identificadores de Google Sheets, conexiones y carpetas de Orchestrator del entorno original se sustituyeron por placeholders.
 - Verifica los permisos del repositorio antes de publicar cambios adicionales.
 
 ## Estructura principal
