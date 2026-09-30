@@ -1,0 +1,6 @@
+{
+  "Name": "RPA_Garantias_ECommerce",
+  "ProjectType": "Process",
+  "Description": "Proceso de automatización de consolidación y validación de garantías.",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,21 @@
+# Configuración local y posibles secretos
+Data/Config.json
+
+# Metadatos locales de UiPath Studio
+.local/
+.project/
+.settings/
+.tmh/
+
+# Archivos generados y temporales
+*.nupkg
+*.log
+*.tmp
+*.bak
+~*.xaml
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

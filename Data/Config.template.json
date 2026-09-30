@@ -1,0 +1,11 @@
+{
+  "GSheet_ID": "YOUR_GOOGLE_SHEET_ID",
+  "Sheet_Name": "YOUR_SHEET_NAME",
+  "DB_Host": "localhost",
+  "DB_Port": "5432",
+  "DB_Name": "YOUR_DATABASE_NAME",
+  "SMTP_Server": "smtp.gmail.com",
+  "SMTP_Port": "587",
+  "Credential_PostgresERP": "Credential_PostgresERP",
+  "Credential_Gmail": "Credential_Gmail"
+}
